@@ -34,7 +34,7 @@ def handle(msg):
         GPIO.output(led_pin, False)
 
 # Insert your telegram token below
-bot = telepot.Bot('5023406108:AAFuYjCMS1RwHBl1tCEWG4C3VN3oEWq6Hzc')
+bot = telepot.Bot('enter your api')
 print (bot.getMe())
 
 # Start listening to the telegram bot and whenever a message is  received, the handle function will be called.
